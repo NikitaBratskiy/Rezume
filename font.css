@@ -1,0 +1,26 @@
+/* Подключение шрифта Montserrat */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/font/Montserrat/static/Montserrat-Regular.woff") format("woff");
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9; /* Светлый фон */
+    color: #ffffff; /* Тёмно-серый текст */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Увеличим расстояние между строками */
+}
+
+/* Увеличим текст и поместим его в центр */
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500; /* Сделаем текст чуть более жирным */
+    color: #fcfcfc; /* Зелёный цвет текста */
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px rgba(0, 255, 60, 0.1); /* Добавим легкую тень */
+}

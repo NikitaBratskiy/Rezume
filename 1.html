@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link href="1.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Хедер -->
+<header class="header">
+    <div class="button">
+        <a href="1.html" class="button-link">Главная</a>
+        <a href="Prilozhenie.html" class="button-link">Мое веб-приложение на Flask</a>
+        <a href="Kontakti.html" class="button-link">Контакты</a>
+        <a href="O_razrabotchike.html" class="button-link">О разработчике</a>
+        <div class="clock-container">
+            <div id="current-time" class="clock">
+                <span id="time"></span>
+                <div id="date" class="date"></div>
+            </div>
+        </div>
+    </div>
+ 
+</header>
+<!-- Загрузочный экран -->
+<div id="loader">
+    <div class="spinner-container">
+        <div class="spinner-circle"></div>
+        <p>Загрузка...</p>
+    </div>
+   
+</div>
+<!-- Основной контент -->
+<main>
+    <!-- Приветственный блок -->
+    <section class="welcome">
+        <h1>Добрый день! Я начинающий веб-разработчик!</h1>
+        <img src="img/Photo1.jpg.jpeg" alt="Моё фото" class="profile-photo">
+        <p>О себе: Веселый, позитивный парень, хочу изменить свою жизнь к лучшему став программистом</p>
+        <p>Хобби: Рисование, музыка, игры на ПК</p>
+    </section>
+    <!-- Навыки -->
+    <section class="skills">
+        <h2>Мои навыки</h2>
+        <i><p>В этом абзаце будет пара слов о моих навыках</p></i>
+        <div class="naviki">
+            <ul>
+                <li>Изучаю HTML</li>
+                <li>Изучаю CSS</li>
+                <li>Изучаю JavaScript</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <!-- Галерея -->
+    <div class="horizontal-slider">
+        <div class="image"><img src="img/Photo1.jpg.jpeg" alt="Фото 1"></div>
+        <div class="image"><img src="img/Photo2.jpg" alt="Фото 2"></div>
+        <div class="image"><img src="img/Photo3.jpg" alt="Фото 3"></div>
+        <div class="image"><img src="img/Photo4.jpg" alt="Фото 4"></div>
+        <div class="image"><img src="img/Photo5.jpg" alt="Фото 5"></div>
+    </div>
+</main>
+<!-- Футер -->
+<footer class="footer">
+    <p>Мой телефон: +375298900344</p>
+    <a href="https://t.me/NEKITBRATISHKA" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="@NEKITBRATISHKA в Telegram" class="telegram-icon">
+    </a>
+    <a href="https://vk.com/airidaid" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/VK.com-logo.svg" alt="@airidaid в вконтакте" class="vk-icon">
+    </a>
+    <p>Страница разработана в 2024 году</p>
+</footer>
+</body>
+</html>
